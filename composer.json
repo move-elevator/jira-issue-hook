@@ -1,0 +1,12 @@
+{
+    "name": "move-elevator/jira-issue-hook",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "move elevator GmbH",
+            "email": "info@move-elevator.de"
+        }
+    ],
+    "require": {}
+}

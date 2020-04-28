@@ -45,7 +45,7 @@ then
     if grep -E -q "$PREFIX-$JIRA_ISSUE_NUMBER_PATTERN" $COMMIT_EDITMSG_PATH
     then
       echo "SUCCESS: Jira issue found."
-      exit 1
+      exit 0
     fi
   done
 else
@@ -53,7 +53,7 @@ else
   if grep -E -q $JIRA_ISSUE_PATTERN $COMMIT_EDITMSG_PATH
   then
     echo "SUCCESS: Jira issue found."
-    exit 1
+    exit 0
   fi
 fi
 

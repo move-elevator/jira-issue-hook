@@ -1,6 +1,13 @@
 {
-  "name": "jira-issue-hook",
+  "name": "@move.elevator/jira-issue-hook",
   "description": "",
   "version": "1.0.1",
-  "author": "move elevator GmbH"
+  "author": {
+    "name": "move elevator GmbH",
+    "email": "info@move-elevator.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/move-elevator/jira-issue-hook"
+  }
 }
